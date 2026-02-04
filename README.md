@@ -1,25 +1,51 @@
-Project Overview
-This project focuses on performing a deep-dive Exploratory Data Analysis (EDA) on the CardioGood Fitness dataset to uncover demographic trends and purchasing behavior across three treadmill product lines: the TM195, TM498, and TM798. The analysis aims to provide data-driven insights for targeted marketing and product positioning.
+# Project Overview
 
-**Key Data Science Workflows**
-Data Wrangling: Conducted extensive data cleaning and preprocessing to ensure a high-quality dataset, resulting in the production of cleaned_cardio_good_fitness.csv.
+This project performs a **deep-dive Exploratory Data Analysis (EDA)** on the **CardioGood Fitness dataset** to uncover demographic trends and purchasing behavior across three treadmill product lines:
 
-- Univariate & Bivariate Analysis: Examined individual variables (Age, Income, Education) and their relationships to identify core customer segments.
+- **TM195**
+- **TM498**
+- **TM798**
 
-- Statistical Visualization: Leveraged Seaborn and Matplotlib to create heatmaps, boxplots, and pairplots to visualize correlations between physical fitness levels and socioeconomic factors.
+The analysis aims to generate **data-driven insights** to support **targeted marketing strategies** and **product positioning decisions**.
 
-- Customer Profiling: Segmented users based on treadmill model preference, revealing distinct profiles such as "High-Income Fitness Enthusiasts" (TM798) versus "Budget-Conscious Starters" (TM195).
+---
 
-**Key Findings**
-- Income Correlation: Higher household income is a strong predictor for the purchase of the premium TM798 model.
+## Key Data Science Workflows
 
-- Fitness Rating: Customers who self-rated their fitness as '5' (high) predominantly chose the TM798, while the TM195 is the most popular choice for entry-level users.
+### 🧹 Data Wrangling
+- Conducted extensive data cleaning and preprocessing
+- Handled missing values, data types, and categorical consistency
+- Produced a high-quality, analysis-ready dataset:  
+  **`cleaned_cardio_good_fitness.csv`**
 
-- Demographic Trends: The analysis identifies specific age ranges and education levels that correlate most strongly with treadmill usage frequency.
+### 📊 Univariate & Bivariate Analysis
+- Analyzed key variables such as:
+  - Age
+  - Income
+  - Education
+- Examined relationships between demographic attributes and treadmill purchasing behavior
+- Identified core customer segments across product lines
 
-Technical Stack
-- Language: Python
+### 📈 Statistical Visualization
+- Leveraged **Seaborn** and **Matplotlib** to create:
+  - Heatmaps
+  - Boxplots
+  - Pairplots
+- Visualized correlations between:
+  - Physical fitness ratings
+  - Socioeconomic factors
+  - Product preferences
 
-- Environment: Jupyter Notebook
+### 👥 Customer Profiling
+- Segmented customers based on treadmill model preference
+- Identified distinct user profiles, including:
+  - **High-Income Fitness Enthusiasts** (TM798)
+  - **Budget-Conscious Starters** (TM195)
+- Enabled targeted marketing and positioning insights
 
-- Libraries: Pandas (Data Manipulation), NumPy (Numerical Analysis), Matplotlib & Seaborn (Data Visualization).
+---
+
+## Key Findings
+
+- **Income Correlation:**  
+  Higher household income strongly predicts the purchase of the premiu
