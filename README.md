@@ -48,4 +48,21 @@ The analysis aims to generate **data-driven insights** to support **targeted mar
 ## Key Findings
 
 - **Income Correlation:**  
-  Higher household income strongly predicts the purchase of the premiu
+  Higher household income strongly predicts the purchase of the premium **TM798** model.
+
+- **Fitness Rating:**  
+  Customers who self-rated their fitness level as **5 (high)** predominantly selected the **TM798**, while the **TM195** is most popular among entry-level users.
+
+- **Demographic Trends:**  
+  Specific age ranges and education levels show strong correlations with treadmill usage frequency and product selection.
+
+---
+
+## Technical Stack
+
+- **Language:** Python  
+- **Environment:** Jupyter Notebook  
+- **Libraries:**  
+  - Pandas (Data Manipulation)  
+  - NumPy (Numerical Analysis)  
+  - Matplotlib & Seaborn (Data Visualization)
